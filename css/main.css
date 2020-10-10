@@ -10,15 +10,28 @@ body {
 
 h1 {
     font-family: 'Dosis', sans-serif;
+    font-size: 2.5rem;
+    margin: 2em 0 1.2em;
 }
 
 h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
-.bg {
-    background: cadetblue url('../images/drawers.jpg');
-    background-position: 12% 83%;
+.hero-bg {
+    background: cadetblue;
     text-align: center;
     padding-bottom: 4em;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    justify-items: left;
+}
+
+h5 span {
+    display: block;
+    font-size: 1.4rem;
+    position: relative;
+    z-index: 1;
 }
