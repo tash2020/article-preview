@@ -2,15 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-    background-color: rgb(125, 235, 235);
-    font-size: 13px;
     justify-content: center;
     margin: 0;
 }
 
 h1 {
     font-family: 'Dosis', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 2em 0 1.2em;
 }
 
@@ -34,4 +32,14 @@ h5 span {
     font-size: 1.4rem;
     position: relative;
     z-index: 1;
+}
+
+img {
+    width: 100%;
+}
+
+.identity span img {
+    
+    
+    
 }
