@@ -10,23 +10,25 @@ body {
     justify-content: center;
     display: grid;
     align-items: center;
+    min-width: auto;
+    height: 100vh;
 
 }
 
-h1 {
+h2 {
     font-family: 'Dosis', sans-serif;
     font-size: 2rem;
     margin: 2em 0 1.2em;
 }
 
-h3 {
+p {
     font-family: 'Open Sans', sans-serif;
 }
 
 .hero-bg {
     background: cadetblue;
     text-align: center;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
 }
 
 h5 {
