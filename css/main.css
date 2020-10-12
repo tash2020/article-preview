@@ -32,14 +32,15 @@ p {
 
 h5 {
     font-family: 'Open Sans', sans-serif;
-    justify-items: left;
+    align-items: center;
+    margin: 2em 0 1.2em;
 }
 
-.date-time {
-    display: block;
-    font-size: 0.7rem;
+h5 span {
     position: relative;
     z-index: 1;
+    font-size: 0.7rem;
+    margin: 0 1em 3em;
 }
 
 img {
