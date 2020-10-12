@@ -10,8 +10,7 @@ body {
     justify-content: center;
     display: grid;
     align-items: center;
-    min-width: auto;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
