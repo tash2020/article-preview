@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body {
     justify-content: center;
     display: grid;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -30,9 +28,13 @@ p {
     padding-bottom: 2em;
 }
 
+img {
+    width: 100%;
+}
+
 h5 {
     font-family: 'Open Sans', sans-serif;
-    align-items: center;
+    align-items: flex-end;
     margin: 2em 0 1.2em;
 }
 
@@ -43,7 +45,8 @@ h5 span {
     margin: 0 1em 3em;
 }
 
-img {
-    width: 100%;
+.author img {
+    border-radius: 50%;
+    align-content: center;
+    
 }
-
