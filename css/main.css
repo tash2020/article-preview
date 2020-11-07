@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+:root {
+    --Very Dark Grayish Blue: hsl(217, 19%, 35%);
+    --Desaturated Dark Blue: hsl(214, 17%, 51%);
+    --Grayish Blue: hsl(212, 23%, 69%);
+    --Light Grayish Blue: hsl(210, 46%, 95%);
+}
 
 body {
     justify-content: center;
@@ -10,7 +16,6 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-
 }
 
 h2 {
@@ -63,7 +68,7 @@ h5 span {
 }
 
 .toggle_button {
-    background: rgb(196, 136, 136);
+    background: var(--Very Dark Grayish Blue);
     width: 250px;
     height: auto;
     border-radius: 50px;
