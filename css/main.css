@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
+    list-style: none;
 
 }
 
@@ -53,6 +54,7 @@ h5 span {
 }
 
 .wrapper {
+    list-style: none;
     box-sizing: border-box;
     position: absolute;
     top: 50%;
@@ -61,6 +63,7 @@ h5 span {
 }
 
 .toggle_button {
+    background: rgb(196, 136, 136);
     width: 250px;
     height: auto;
     border-radius: 50px;
@@ -72,5 +75,18 @@ h5 span {
     display: flex;
     align-items: center;
     padding: 5px 5px;
-    list-style: none;
+}
+
+.toggle_button ul li a.share-btn .text {
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin-right: 1em;
+    color: grey;
+}
+
+.toggle_button ul li a.share-btn .icon {
+    width: 35px;
+    height: 35px;
+
 }
