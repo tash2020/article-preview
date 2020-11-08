@@ -12,10 +12,8 @@ body {
     justify-content: center;
     display: grid;
     align-items: center;
-    min-height: 100vh;
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
 h2 {
@@ -60,6 +58,7 @@ h5 span {
 
 .wrapper {
     list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
     position: absolute;
     top: 50%;
@@ -68,7 +67,7 @@ h5 span {
 }
 
 .toggle_button {
-    background: $veryDarkGrayishBlue ;
+    background: $veryDarkGrayishBlue;
     width: 250px;
     height: auto;
     border-radius: 50px;
