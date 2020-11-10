@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-$myColors {
-    $veryDarkGrayishBlue: hsl(217, 19%, 35%);
-    $desaturatedDarkBlue: hsl(214, 17%, 51%);
-    $grayishBlue: hsl(212, 23%, 69%);
-    $lightGrayishBlue: hsl(210, 46%, 95%);
+:root {
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
 body {
@@ -27,7 +27,6 @@ p {
 }
 
 .hero-bg {
-    background: cadetblue;
     text-align: center;
     padding-bottom: 2em;
 }
@@ -54,19 +53,23 @@ h5 span {
     border-radius: 50%;
     align-content: center;
     
+    
 }
 
 .wrapper {
     list-style-type: none;
     box-sizing: border-box;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
+    left: 80%;
+    right: 40%;
+    margin-bottom: -80%;
+    margin-top: -50%;
+    padding: 0;
     transform: translate(-50%, -50%);
 }
 
 .toggle_button {
-    background: $veryDarkGrayishBlue;
+    background: var(--very-dark-grayish-blue);
     width: 250px;
     height: auto;
     border-radius: 50px;
