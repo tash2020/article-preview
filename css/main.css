@@ -8,12 +8,15 @@
     --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     justify-content: center;
     display: grid;
     align-items: center;
-    margin: 0;
-    padding: 0;
 }
 
 h2 {
@@ -52,12 +55,9 @@ h5 span {
 .author img {
     border-radius: 50%;
     align-content: center;
-    
-    
 }
 
 .wrapper {
-    list-style-type: none;
     box-sizing: border-box;
     position: relative;
     left: 80%;
@@ -81,6 +81,7 @@ h5 span {
     display: flex;
     align-items: center;
     padding: 5px 5px;
+    list-style: none;
 }
 
 .toggle_button ul li a.share-btn .text {
@@ -88,7 +89,7 @@ h5 span {
     font-size: 2rem;
     letter-spacing: 10px;
     margin-right: 1em;
-    color: grey;
+    color: var(--light-grayish-blue);
     text-decoration: none;
 }
 
