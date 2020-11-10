@@ -57,8 +57,7 @@ h5 span {
 }
 
 .wrapper {
-    list-style: none;
-    text-decoration: none;
+    list-style-type: none;
     box-sizing: border-box;
     position: absolute;
     top: 50%;
@@ -87,6 +86,7 @@ h5 span {
     letter-spacing: 10px;
     margin-right: 1em;
     color: grey;
+    text-decoration: none;
 }
 
 .toggle_button ul li a.share-btn .icon {
