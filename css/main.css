@@ -7,12 +7,14 @@
     --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
-* {
-    margin: 0;
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
 body {
+    margin: 0;
     justify-content: center;
     display: grid;
     align-items: center;
