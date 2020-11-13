@@ -7,9 +7,7 @@
     --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
-*,
-*::before,
-*::after {
+* {
     box-sizing: border-box;
 }
 
@@ -18,6 +16,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Dosis', sans-serif;
+    display: flex;
+    min-height: 100vh;
 }
 
 .container {
@@ -55,24 +55,13 @@ h5 span {
     align-content: center;
 }
 
-.wrapper {
-    box-sizing: border-box;
-    position: relative;
-    left: 80%;
-    right: 40%;
-    margin-bottom: -80%;
-    margin-top: -50%;
-    padding: 0;
-    transform: translate(-50%, -50%);
-}
-
-.toggle_button {
+.buttons {
     background: var(--very-dark-grayish-blue);
     width: 250px;
     height: auto;
     border-radius: 50px;
-    overflow: hidden;
     transition: all 0.2s ease;
+    list-style: none;
 }
 
 .toggle_button ul li a {
@@ -94,5 +83,9 @@ h5 span {
 .toggle_button ul li a.share-btn .icon {
     width: 35px;
     height: 35px;
+
+}
+
+.attribution {
 
 }
