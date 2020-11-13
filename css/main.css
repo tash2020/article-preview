@@ -54,16 +54,3 @@ h5 span {
     border-radius: 50%;
     align-content: center;
 }
-
-.buttons {
-    background: var(--very-dark-grayish-blue);
-    width: 250px;
-    height: auto;
-    border-radius: 50px;
-    transition: all 0.2s ease;
-    list-style: none;
-}
-
-.attribution {
-
-}
