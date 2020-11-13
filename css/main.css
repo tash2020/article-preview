@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 
 :root {
     --very-dark-grayish-blue: hsl(217, 19%, 35%);
@@ -16,25 +16,22 @@
 body {
     margin: 0;
     justify-content: center;
-    display: grid;
     align-items: center;
     font-family: 'Dosis', sans-serif;
 }
 
 .container {
     padding: 1rem 0.5rem;
-    border-radius: 0.1rem;
-    width: 100%;
-    margin: 3.1rem auto 0 auto;
 }
 
 h2 {
     font-size: 2rem;
-    margin: 2em 0 1.2em;
+    font-weight: 500;
+    font-style: bold;
 }
 
 p {
-    font-weight: 200;
+    font-weight: 300;
 }
 
 img {
@@ -42,7 +39,6 @@ img {
 }
 
 h5 {
-    font-family: 'Open Sans', sans-serif;
     align-items: flex-end;
     margin: 2em 0 1.2em;
 }
