@@ -12,19 +12,28 @@
 }
 
 body {
-    margin: 0;
     justify-content: center;
     align-items: center;
     font-family: 'Dosis', sans-serif;
     display: flex;
-    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
 }
 
 .container {
-    padding: 1rem 0.5rem;
-    display: grid;
+    width: 100%;
+    margin: 3.1rem auto 0 auto;
 }
 
+.drawer {
+    width: 320px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.text-group {
+
+}
 h2 {
     font-size: 2rem;
     font-style: bold;
@@ -52,9 +61,4 @@ h5 span {
     font-size: 0.7rem;
     margin: 0 1em 3em;
     padding: 2em;
-}
-
-.author img {
-    border-radius: 50%;
-    align-content: center;
 }
