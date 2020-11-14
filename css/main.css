@@ -48,6 +48,11 @@ p {
     
 }
 
+.author {
+    display: flex;
+    z-index: 5;
+}
+
 .avatar {
     vertical-align: middle;
     width: 40px;
@@ -57,10 +62,8 @@ p {
 }
 
 h5 {
-    align-items: flex-end;
-    margin: 2em 0 1.2em;
+    margin-left: 0.1em;
 }
-
 h5 span {
     position: relative;
     z-index: 1;
