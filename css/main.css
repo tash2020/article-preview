@@ -26,7 +26,14 @@ body {
     margin-top: 1.5em;
     padding: 1rem;
     width: (20ch, 50%, 50ch);
+}
 
+.parent {
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    border-radius: 10px 10px 0 0;
+    
 }
 
 .drawer {
