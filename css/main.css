@@ -26,6 +26,7 @@ body {
     align-items: center;
     margin-left: 4.5em;
     border-radius: 10px 10px 0 0;
+    margin-top: 1.5em;
 
 }
 
@@ -65,14 +66,13 @@ p {
 }
 
 h5 {
-    margin-left: 0.5em;
+    margin-left: 1.2em;
+    margin-top: 1em;
     font-style: bold;
 }
 
-h5 span {
-    position: relative;
-    z-index: 1;
-    font-size: 0.7rem;
-    margin: 0 1em 3em;
-    padding: 2em;
+span {
+    font-size: 0.65rem;
+    margin-top: 2.8em;
+    margin-right: 5em;
 }
