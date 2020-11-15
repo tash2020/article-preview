@@ -18,11 +18,14 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-color: var(--light-grayish-blue);
 }
 
 .container {
     justify-content: center;
     align-items: center;
+    margin-left: 4.5em;
+    border-radius: 10px 10px 0 0;
 
 }
 
@@ -62,8 +65,10 @@ p {
 }
 
 h5 {
-    margin-left: 0.1em;
+    margin-left: 0.5em;
+    font-style: bold;
 }
+
 h5 span {
     position: relative;
     z-index: 1;
