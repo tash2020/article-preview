@@ -74,5 +74,5 @@ h5 {
 .author p {
     font-size: 0.65rem;
     margin-top: 3em;
-    position: relative;
+    float: left;
 }
