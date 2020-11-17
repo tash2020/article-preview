@@ -24,15 +24,15 @@ body {
     place-items: center;
     border-radius: 10px 10px 0 0;
     margin-top: 1.5em;
-    width: (20ch, 50%, 50ch);
 }
 
 .parent {
     background-color: #ffffff;
     display: grid;
     place-items: center;
-    border-radius: 10px 10px 0 0;
-    
+    width: 20em;
+    height: 20em;
+    border-radius: 0 0 10px 10px;
 }
 
 .drawer {
