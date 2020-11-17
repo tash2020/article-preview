@@ -58,20 +58,17 @@ p {
 }
 
 .author {
-    display: flex;
-    z-index: 5;
+    display: inline-flex;
 }
 
 .avatar {
-    vertical-align: middle;
     width: 40px;
     height: 40px;
-    border-radius: 57%;
-    margin-top: 0.5em;
+    border-radius: 60%;
+    margin-left: 0.1em;
 }
 
 h5 {
-    margin-left: 1.5em;
     margin-top: 1em;
     font-style: bold;
 }
@@ -79,7 +76,6 @@ h5 {
 .author p {
     font-size: 0.65rem;
     margin-top: 3em;
-    float: left;
 }
 
 .attribution {
