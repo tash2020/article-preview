@@ -36,9 +36,11 @@ body {
 }
 
 .drawer {
+    background: url('../images/drawers.jpg');
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
     width: 320px;
     height: 200px;
-    border-radius: 10px 10px 0 0;
 }
 
 .text-group {
