@@ -60,21 +60,24 @@ p {
     color: var(--desaturated-dark-blue);
 }
 
-.author {
+.parents2 {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
-.avatar {
+.author {
+    display: flex;
+}
+
+.author img {
     width: 40px;
     height: 40px;
     border-radius: 60%;
-    margin-left: 0.1em;
+    margin-right: 10px;
 }
 
 h5 {
-    margin-top: 1em;
     font-weight: 700;
     color: var(--desaturated-dark-blue);
 }
@@ -86,63 +89,40 @@ h5 {
     color: var(--grayish-blue);
 }
 
-.share-btn {
-    background-color: var(--light-grayish-blue);
-    border-radius: 50%;
-    padding: 0.3em;
-}
-
-.share-btn:hover {
-    background-color: var(--desaturated-dark-blue);
-}
-
-.share-btn:active {
-    transform: translateY(0.7em);
-}
-
-.hide {
+.share-links {
     position: absolute;
     display: flex;
-    background-color: var(--very-dark-grayish-blue);
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 1.27em 1.5em;
-    height: 0.5em;
-    opacity: 1;
-    margin-top: -140px;
-    margin-left: -170px;
-    border-radius: 13px;
-}
-
-.hide::after {
-    content: '';
-    position: absolute;
+    background-color: var(--very-dark-grayish-blue);
+    padding: 0 35px;
+    height: 65px;
+    opacity: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border: 15px solid transparent;
-    border-bottom: 0;
-    margin-bottom: -15px;
-    margin-left: -15px;
+    transition: all 0.3s;
+    border-radius: 10px;
 }
 
-.hide p {
-    text-transform: uppercase;
-    margin: 0;
-    opacity: 0.9;
-    font-size: 1em;
-    letter-spacing: 0.5em;
-    color: var(--light-grayish-blue);
+.share-links:active {
+    opacity: 1;
+    pointer-events: all;
 }
 
-.hide ul li {
-    padding: 0px 20px;
-}
-
-ul {
-    list-style-type: none;
+.share-links2 {
     display: flex;
+    align-items: center;
+}
+
+.share-links2 span {
+    margin-right: 20px;
+    letter-spacing: 4px;
+    color: var(--grayish-blue);
+}
+
+.share-links2 a {
+    margin-right: 15px;
 }
 
 .attribution {
