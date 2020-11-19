@@ -87,9 +87,9 @@ h5 {
 }
 
 .share-btn {
-    background-color: #ffffff;
+    background-color: var(--light-grayish-blue);
     border-radius: 50%;
-    padding: 0.7em;
+    padding: 0.3em;
 }
 
 .share-btn:hover {
