@@ -22,7 +22,6 @@ body {
     display: flex;
     flex-direction: column;
     place-items: center;
-    border-radius: 10px 10px 0 0;
     margin-top: 1.5em;
 }
 
@@ -31,7 +30,7 @@ body {
     display: grid;
     place-items: center;
     width: 20em;
-    height: 20em;
+    height: 17em;
     border-radius: 0 0 10px 10px;
 }
 
@@ -44,19 +43,22 @@ body {
 }
 
 .text-group {
-    width: 17em;
+    width: 16em;
     position: relative;
+    margin: 0.7em 2em 0 2em;
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1em;
     font-weight: 700;
     color: var(--very-dark-grayish-blue);
-    
+    word-spacing: 0.1em;
+    margin-top: 0;
 }
 
 p {
     font-weight: 500;
+    font-size: 0.9em;
     color: var(--desaturated-dark-blue);
 }
 
@@ -109,6 +111,10 @@ p {
     margin-right: 15px;
 }
 
+.share-links2_last {
+    margin: 0;
+}
+
 .author {
     display: flex;
 }
@@ -124,6 +130,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 0.7em;
 }
 
 .author-name {
@@ -131,8 +138,9 @@ p {
     color: var(--desaturated-dark-blue);
 }
 
-.author-date p {
+.author-date {
     font-weight: 500;
+    font-size: 0.9em;
     color: var(--grayish-blue);
 }
 
