@@ -21,10 +21,9 @@ body {
 }
 
 .container {
-    display: flex;
     flex-direction: column;
     place-items: center;
-    margin-top: 1.8em;
+    margin-top: 1.85em;
 }
 
 .parent {
@@ -120,6 +119,10 @@ p {
 
 #share-button {
     margin-top: 1.8em;
+    margin-right: 1.2em;
+    border-radius: 40%;
+    width: 30px;
+    height: 30px;
 }
 
 .author {
@@ -155,4 +158,11 @@ p {
 .attribution {
     display: flex;
     place-items: center;
+    position: relative;
+}
+
+@media (min-width: 700px) {
+    .container {
+        display: flex;
+    }
 }
