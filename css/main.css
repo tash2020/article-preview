@@ -9,6 +9,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -22,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     place-items: center;
-    margin-top: 1.5em;
+    margin-top: 1.8em;
 }
 
 .parent {
@@ -53,10 +55,11 @@ h2 {
     font-weight: 700;
     color: var(--very-dark-grayish-blue);
     word-spacing: 0.1em;
-    margin-top: 0;
+    margin-top: -1em;
 }
 
 p {
+    margin-top: 1em;
     font-weight: 500;
     font-size: 0.9em;
     color: var(--desaturated-dark-blue);
@@ -81,7 +84,7 @@ p {
     justify-content: space-between;
     align-items: center;
     background-color: var(--very-dark-grayish-blue);
-    padding: 0 35px;
+    padding: 2.2em 1em;
     height: 65px;
     opacity: 0;
     left: 0;
@@ -115,8 +118,13 @@ p {
     margin: 0;
 }
 
+#share-button {
+    margin-top: 1.8em;
+}
+
 .author {
     display: flex;
+    margin-top: 1.8em;
 }
 
 .author img {
