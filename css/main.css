@@ -44,7 +44,7 @@ body {
 }
 
 .text-group {
-    width: 16em;
+    width: fit-content;
     position: relative;
     margin: 0.7em 2em 0 2em;
 }
@@ -164,8 +164,9 @@ p {
 @media (min-width: 700px) {
     .container {
         display: grid;
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns: 1fr 1fr;
         place-items: center;
+        margin: 12em 5em 0 0;
     }
 
     .parent {
@@ -182,8 +183,8 @@ p {
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0;
         object-position: left;
-        width: 270px;
-        margin-right: -5em;
+        width: 235px;
+        margin-right: -7.5em;
 
     }
 
