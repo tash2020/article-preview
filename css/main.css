@@ -162,7 +162,20 @@ p {
 }
 
 @media (min-width: 700px) {
-    .container {
+    .parent {
         display: flex;
+        height: 300px;
+        width: 500px;
+        
     }
+
+    .drawer {
+        background: url('../images/drawers.jpg');
+        background-size: cover;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        object-position: left;
+
+    }
+
 }
