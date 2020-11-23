@@ -162,11 +162,10 @@ p {
 }
 
 @media (min-width: 700px) {
-    .parent {
-        display: flex;
-        height: 300px;
-        width: 500px;
-        
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        place-items: center;
     }
 
     .drawer {
@@ -174,7 +173,9 @@ p {
         background-size: cover;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
         object-position: left;
+        width: 270px;
 
     }
 
