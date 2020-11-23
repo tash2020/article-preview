@@ -168,6 +168,13 @@ p {
         place-items: center;
     }
 
+    .parent {
+        width: 25em;
+        height: 13.78em;
+        margin-left: -1em;
+        border-radius: 0 10px 10px 0;
+    }
+
     .drawer {
         background: url('../images/drawers.jpg');
         background-size: cover;
@@ -176,6 +183,7 @@ p {
         border-top-right-radius: 0;
         object-position: left;
         width: 270px;
+        margin-right: -5em;
 
     }
 
