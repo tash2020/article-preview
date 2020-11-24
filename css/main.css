@@ -220,7 +220,7 @@ p {
     .share-links:after {
         content: "";
         position: absolute;
-        top: calc(50% + 32.5px);
+        top: calc(50% + 32px);
         right: 25%;
         height: 20px;
         width: 20px;
