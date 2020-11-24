@@ -206,10 +206,10 @@ p {
     }
 
     .share-links {
-        top: 57%;
-        left: unset;
-        right: -45px;
+        top: 7.5em;
+        right: -2.78em;
         bottom: unset;
+        left: unset;
         transform: translateY(-50%);
     }
 
