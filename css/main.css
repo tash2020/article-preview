@@ -61,6 +61,7 @@ p {
     margin-top: 1em;
     font-weight: 500;
     font-size: 0.9em;
+    line-height: 1.5em;
     color: var(--desaturated-dark-blue);
 }
 
@@ -107,6 +108,7 @@ p {
     margin-right: 20px;
     letter-spacing: 4px;
     color: var(--grayish-blue);
+    text-transform: uppercase;
 }
 
 .share-links2 a {
@@ -120,9 +122,12 @@ p {
 #share-button {
     margin-top: 1.8em;
     margin-right: 1.2em;
-    border-radius: 40%;
-    width: 30px;
-    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#share-button:hover {
+    background-color: var(--light-grayish-blue);
 }
 
 .author {
@@ -186,6 +191,41 @@ p {
         width: 235px;
         margin-right: -7.5em;
 
+    }
+
+    h2 {
+        margin-top: 0.5em;
+    }
+
+    p {
+        margin-top: 1em;
+    }
+
+    .author {
+        margin-top: 1em;
+    }
+
+    .share-links {
+        top: 57%;
+        left: unset;
+        right: -45px;
+        bottom: unset;
+        transform: translateY(-50%);
+    }
+
+    .share-links button {
+        display: none;
+    }
+
+    .share-links:after {
+        content: "";
+        position: absolute;
+        top: calc(50% + 32.5px);
+        right: 25%;
+        height: 20px;
+        width: 20px;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background-color: var(--very-dark-grayish-blue);
     }
 
 }
