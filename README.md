@@ -1,3 +1,5 @@
+I did my first project. Trying to get similar as best as I can. [Here](https://article-preview.tash2020.vercel.app/) is my code if want to check it out.
+
 # Frontend Mentor - Article preview component
 
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
