@@ -76,6 +76,12 @@ p {
     height: 32px;
     border-radius: 50%;
     border: none;
+    cursor: pointer;
+    background-color: var(--light-grayish-blue);
+}
+
+.parents2 button:hover {
+    background-color: var(--grayish-blue);
 }
 
 .share-links {
@@ -123,11 +129,6 @@ p {
     margin-top: 1.8em;
     margin-right: 1.2em;
     border-radius: 50%;
-    cursor: pointer;
-}
-
-#share-button:hover {
-    background-color: var(--light-grayish-blue);
 }
 
 .author {
@@ -164,6 +165,7 @@ p {
     display: flex;
     place-items: center;
     position: relative;
+    margin: 2em;
 }
 
 @media (min-width: 700px) {
@@ -206,7 +208,7 @@ p {
     }
 
     .share-links {
-        top: 7.5em;
+        top: 8em;
         right: -2.78em;
         bottom: unset;
         left: unset;
