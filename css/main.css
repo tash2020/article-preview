@@ -163,10 +163,9 @@ p {
 }
 
 .attribution {
-    display: flex;
-    place-items: center;
-    position: relative;
-    margin: 2em;
+    justify-content: center;
+    align-content:center;
+    position: absolute;
 }
 
 @media (min-width: 700px) {
