@@ -14,8 +14,9 @@
 }
 
 body {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Dosis', sans-serif;
     background-color: var(--light-grayish-blue);
 }
@@ -100,7 +101,7 @@ p {
     border-radius: 10px;
 }
 
-.share-links:active {
+.share-links.active {
     opacity: 1;
     pointer-events: all;
 }
