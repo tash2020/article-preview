@@ -16,7 +16,7 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     font-family: 'Dosis', sans-serif;
     background-color: var(--light-grayish-blue);
 }
